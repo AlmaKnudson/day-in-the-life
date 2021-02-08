@@ -15,4 +15,10 @@ describe('Greeting', () => {
   it('should be defined', () => {
     expect(provider).toBeDefined();
   });
+
+  describe('getGreeting', () => {
+    it('should return greeting for specified user', () => {
+      expect(provider.getGreeting('Henry')).toEqual('Hello Henry!');
+    });
+  });
 });
