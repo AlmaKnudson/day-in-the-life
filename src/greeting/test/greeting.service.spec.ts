@@ -18,7 +18,7 @@ describe('Greeting', () => {
 
   describe('getGreeting', () => {
     it('should return greeting for specified user', () => {
-      expect(provider.getGreeting('Henry')).toEqual('Hello Henry11!');
+      expect(provider.getGreeting('Henry')).toEqual('Hello Henry!');
     });
   });
 });
