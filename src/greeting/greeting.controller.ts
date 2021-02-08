@@ -1,7 +1,7 @@
 import { Controller, Get, Logger, Param, UsePipes } from '@nestjs/common';
 import { string } from 'joi';
 import { CapitalizationPipe } from '../pipes/capitalization.pipe';
-import { JoiValidationPipe } from 'src/pipes/joi-validation.pipe';
+import { JoiValidationPipe } from '../pipes/joi-validation.pipe';
 import { GreetingService } from './greeting.service';
 
 @Controller('greeting')
