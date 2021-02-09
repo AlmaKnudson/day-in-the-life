@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { DijkstraModule } from 'src/dijkstra/dijkstra.module';
+import { DijkstraModule } from '../../dijkstra/dijkstra.module';
 import { MapController } from '../map.controller';
 import { MapService } from '../map.service';
 
